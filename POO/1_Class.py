@@ -11,6 +11,4 @@ p1 = Pessoa()
 p1.nome = "lucas"
 p1.sobrenome = "Sombra"
 
-
-
 print(p1.nome, p1.sobrenome)
