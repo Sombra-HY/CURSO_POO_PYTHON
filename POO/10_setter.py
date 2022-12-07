@@ -16,7 +16,7 @@ class Caneta:
 
     @cor.setter
     def cor(self, cor):
-        self.__cor= cor
+        self.__cor = cor
 
 # sem o setter da erro atribuir
 c1 = Caneta("azul")
