@@ -15,7 +15,9 @@ class Eletronico:
 
 # Especializar
 
-class Smartphone( Eletronico, LogMixxingFile):
+class Smartphone( Eletronico, LogMixxingFile): 
+    # LOGMIXXINGFILE PODE SER ALTERADO PARA LOGMIXXINGPRINT
+    # sem perder a logica do exerc, 
 
     def ligar(self):
         super().ligar()
